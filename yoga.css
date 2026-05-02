@@ -34,7 +34,6 @@
     display: flex;
     justify-content: space-around;
     display: inline;
-    flex-direction: column;
   }
   footer{
     background-color: rgb(63, 198, 180);
@@ -49,6 +48,15 @@
       flex-direction: column;
     }
     ul{
+      flex-direction: column;
+    }
+    li{
+       flex-direction: column;
+    }
+    main img{
+      flex-direction: column;
+    }
+    div.content-box{
       flex-direction: column;
     }
   } 
