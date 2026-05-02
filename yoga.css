@@ -39,12 +39,15 @@
     background-color: rgb(63, 198, 180);
     line-height: 4em;
   }
-  
+
   /*******************
   media queries
   *******************/
   @media screen and (max-width:600px) {
-    .nav{
+    nav{
+      flex-direction: column;
+    }
+    li{
       flex-direction: column;
     }
   } 
